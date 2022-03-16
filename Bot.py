@@ -1,6 +1,7 @@
 import requests
 from pyrogram import Client, filters
 from configs import config
+from asyncio import sleep
 
 from pyrogram.types import (
     Message, 
@@ -76,9 +77,10 @@ async def bin(_, m: Message):
         em = cc["emoji"]
         cod = cc["code"]
         dial = cc["dialCode"]
-
+        
+        mfrom = m.from_user.mention
         caption = f"""
-╔ Valid :- `{res} ✅`\n╚ Bin :- `{bi}`\n\n╔ Brand :- `{ve}`\n╠ Type :- `{ty}`\n╚ Level :- `{le}`\n\n╔ Bank :- `{ban} ({co})`\n╠ Country :- `{nm} {em}`\n╠ Alpha2 :- `{cod}`\n╚ DialCode :- `{dial}`
+╔ Valid :- `{res} ✅`\n╚ Bin :- `{bi}`\n\n╔ Brand :- `{ve}`\n╠ Type :- `{ty}`\n╚ Level :- `{le}`\n\n╔ Bank :- `{ban} ({co})`\n╠ Country :- `{nm} {em}`\n╠ Alpha2 :- `{cod}`\n╚ DialCode :- `{dial}`\n\n**↠ Checked By :-** {mfrom}\n**↠ __Bot By :-** [Denuwan](https://github.com/ImDenuwan/Bin-Checker-Bot)__
 """
         await mafia.edit(caption)
 
