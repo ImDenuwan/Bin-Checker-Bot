@@ -2,7 +2,7 @@
 
 **A Telegram Bin Checker Bot made with python for check Bin valid or Invalid.**
 
-<p><a href="https://github.com/ImDenuwan/Bin-Checker-Bot/"><img src="https://img.shields.io/github/forks/ImDenuwan/Bin-Checker-Bot?style=social"></a></p>
+<p><a href="https://github.com/ImDenuwan/Bin-Checker-Bot"><img src="https://img.shields.io/github/forks/ImDenuwan/Bin-Checker-Bot?style=social"></a></p>
 <a href="https://github.com/ImDenuwan/Bin-Checker-Bot"><img src="https://img.shields.io/github/stars/ImDenuwan/Bin-Checker-Bot?style=social"></a>
 
 ## 📌 Deploy On Heroku
@@ -15,7 +15,7 @@
   
   
 ### 💫 Credits
- - [Me](https://github.com/ImDenuwan/) for Nothing 😅
- - [ArnabXD](https://github.com/ArnabXD/) for Bins-su api
+ - [Me](https://github.com/ImDenuwan) for Nothing 😅
+ - [ArnabXD](https://github.com/ArnabXD) for Bins-su api
  - [Dan](https://github.com/delivrance) for pyrogram
  - [MrItzme](https://github.com/Damantha126)
