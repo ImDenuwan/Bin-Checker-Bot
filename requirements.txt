@@ -1,3 +1,4 @@
 asyncio
-Pyrogram==1.4.8 
+Pyrogram==1.4.8
+TgCrypto 
 requests
