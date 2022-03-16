@@ -1,0 +1,32 @@
+{
+  "name": "Bin Checker Bot",
+  "description": "Open Source bot to check Bin Valid or Invalid",
+  "keywords": [
+    "Bin-Checker-Bot",
+    "Telegram",
+    "Bins"
+  ],
+  "repository": "https://github.com/ImDenuwan/Bin-Checker-Bot",
+  "logo": "https://telegra.ph/file/f1ba292bceb09c52a5a85.jpg",
+  
+  "env": {
+    "API_ID": {
+      "description": "Enter your API_ID, get it from my.telegram.org/apps",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Enter your API_HASH, get it from my.telegram.org/apps",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Enter your Bot token, get it from @BotFather",
+      "required": true
+    }
+  },
+  
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
