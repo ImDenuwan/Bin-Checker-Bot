@@ -11,8 +11,8 @@ from pyrogram.types import (
 
 Bot = Client(
     ":memory:",
-    api_hash=config.API_ID,
-    api_id=config.API_HASH,
+    api_hash=config.API_HASH,
+    api_id=config.API_ID,
     bot_token=config.BOT_TOKEN,
 )
 
