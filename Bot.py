@@ -82,10 +82,10 @@ async def bin(_, m: Message):
             caption = f"""
     ╔ Valid :- `{res} ✅`\n╚ Bin :- `{bi}`\n\n╔ Brand :- `{ve}`\n╠ Type :- `{ty}`\n╚ Level :- `{le}`\n\n╔ Bank :- `{ban} ({co})`\n╠ Country :- `{nm} {em}`\n╠ Alpha2 :- `{cod}`\n╚ DialCode :- `{dial}`\n\n**↠ Checked By :-** {mfrom}\n**↠ __Bot By :-** [Denuwan](https://github.com/ImDenuwan/Bin-Checker-Bot)__
     """
-            await mafia.edit(caption)
+            await mafia.edit(caption, disable_web_page_preview=True)
             
         except Exception as e:
-            await bot.reply_text(f"Oops Error!\n{e}\n\nReport This Bug to Bot Owner.")
+            await bot.reply_text(f"**Oops Error!**\n{e}\n\n**Report This Bug to Bot Owner.**")
 
 print("Bot IS Alive Now")
 
