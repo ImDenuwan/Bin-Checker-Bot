@@ -9,9 +9,9 @@
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ImDenuwan/Bin-Checker-Bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"></p></a>
 
 ## 🏷 Environment Variables
-  - `API_ID` - Your Telegram API ID.Get it [Here](my.telegram.org)
-  - `API_HASH` - Your Telegram API HASH.Get it [Here](my.telegram.org)
-  - `BOT_TOKEN` - Your Bot Token. Get it from [Here](https://t.me/BotFather)
+  - `API_ID` -21591888 Your Telegram API ID.Get it [Here](my.telegram.org)
+  - `API_HASH` -d3a40a4f3cd858f80a6ef1659cc4df48 Your Telegram API HASH.Get it [Here](my.telegram.org)
+  - `BOT_TOKEN` -6519242550:AAEt_3j_Jw7Y4eDLqaIJ2q2nv8GVLMlUpVI Your Bot Token. Get it from [Here](https://t.me/BotFather)
   
   
 ### 💫 Credits
