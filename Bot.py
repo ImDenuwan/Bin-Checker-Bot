@@ -12,9 +12,9 @@ from pyrogram.types import (
 
 Bot = Client(
     ":memory:",
-    api_hash=config.API_HASH,d3a40a4f3cd858f80a6ef1659cc4df48
-    api_id=config.API_ID,21591888
-    bot_token=config.BOT_TOKEN,6552338134:AAEsmnqmFNROXtdThB25dV4JBV6942-Q90A
+    api_hash=config.API_HASH,"d3a40a4f3cd858f80a6ef1659cc4df48"
+    api_id=config.API_ID,"21591888"
+    bot_token=config.BOT_TOKEN,"6552338134:AAEsmnqmFNROXtdThB25dV4JBV6942-Q90A"
 )
 
 
@@ -24,8 +24,8 @@ async def start(_, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Channel", url="https://t.me/szteambots"),
-                InlineKeyboardButton("Support", url="https://t.me/slbotzone"),
+                InlineKeyboardButton("Channel", url="https://t.me/jrz_cheker"),
+                InlineKeyboardButton("Support", url="https://t.me/MrJrzVentas"),
             ],
             [
                 InlineKeyboardButton(
