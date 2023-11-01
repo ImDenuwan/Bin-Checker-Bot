@@ -10,7 +10,7 @@
   "logo": "https://telegra.ph/file/f1ba292bceb09c52a5a85.jpg",
   
   "env": {
-    "API_ID": {21591888
+    "API_ID": {"21591888"
       "description": "Enter your API_ID, get it from my.telegram.org/apps",
       "required": true
     },
