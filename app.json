@@ -11,7 +11,8 @@
   
   "env": {
     "API_ID": {21591888
-      "description": "Enter your API_ID, get it from my.telegram.org/apps",
+      "description":
+"Enter your API_ID, get it from my.telegram.org/apps",
       "required": true
     },
     "API_HASH": {
