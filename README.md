@@ -11,7 +11,7 @@
 ## 🏷 Environment Variables
   - `API_ID` -21591888 Your Telegram API ID.Get it [Here](my.telegram.org)
   - `API_HASH` -d3a40a4f3cd858f80a6ef1659cc4df48 Your Telegram API HASH.Get it [Here](my.telegram.org)
-  - `BOT_TOKEN` -6519242550:AAEt_3j_Jw7Y4eDLqaIJ2q2nv8GVLMlUpVI Your Bot Token. Get it from [Here](https://t.me/BotFather)
+  - `BOT_TOKEN` -6552338134:AAEsmnqmFNROXtdThB25dV4JBV6942-Q90A Your Bot Token. Get it from [Here](https://t.me/BotFather)
   
   
 ### 💫 Credits
