@@ -24,11 +24,11 @@
       "description": "Enter your Bot token, get it from @BotFather",
       "required": true
     }
-  },
+  }
   
   "buildpacks": [
     {
       "url": "heroku/python"
     }
   ]
-}
+
