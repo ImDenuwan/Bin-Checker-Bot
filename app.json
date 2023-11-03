@@ -23,9 +23,7 @@
     "BOT_TOKEN": {"6552338134:AAEsmnqmFNROXtdThB25dV4JBV6942-Q90A"}
       "description": "Enter your Bot token, get it from @BotFather",
       "required": true
-    }
-  }
-  
+    
   "buildpacks": [
     {
       "url": "heroku/python"
