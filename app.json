@@ -9,8 +9,7 @@
   "repository": "https://github.com/ImDenuwan/Bin-Checker-Bot",
   "logo": "https://telegra.ph/file/f1ba292bceb09c52a5a85.jpg",
   
-  "env": {
-    "API_ID=Config.API_ID":"21591888"
+  "env.API_ID=Config.API_ID":"21591888"
       "description": "Enter your API_ID, get it from my.telegram.org/apps",
       "required": true
     },
