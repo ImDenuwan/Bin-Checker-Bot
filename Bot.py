@@ -10,9 +10,9 @@ from pyrogram.types import (
 )
 
 
-Bot = Client( ":Jrz Cheker Bot:", )
-
-    api_hash=config.API_HASH,"d3a40a4f3cd858f80a6ef1659cc4df48"
+Bot = Client( 
+":Jrz Cheker Bot:", 
+  api_hash=config.API_HASH,"d3a40a4f3cd858f80a6ef1659cc4df48"
     api_id=config.API_ID,"21591888"
     bot_token=config.BOT_TOKEN,"6552338134:AAEsmnqmFNROXtdThB25dV4JBV6942-Q90A"
 )
