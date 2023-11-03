@@ -1,30 +1,32 @@
 {
-  "name": "Jrz Cheker Bot",
+   "name": "Jrz-Cheker-bot",
   "description": "Open Source bot to check Bin Valid or Invalid",
   "keywords": [
-    "Jrz Cheker Bot",
+    "Bin-Checker-Bot",
     "Telegram",
     "Bins"
   ],
   "repository": "https://github.com/ImDenuwan/Bin-Checker-Bot",
   "logo": "https://telegra.ph/file/f1ba292bceb09c52a5a85.jpg",
-  
-  "env"
-    "API_ID=Config.API_ID":"21591888"
+
+  "env": {
+    "API_ID": {21591888
       "description": "Enter your API_ID, get it from my.telegram.org/apps",
       "required": true
     },
-    "API_HASH=Config.API_HASH": 
-"d3a40a4f3cd858f80a6ef1659cc4df48"
+    "API_HASH": {d3a40a4f3cd858f80a6ef1659cc4df48
       "description": "Enter your API_HASH, get it from my.telegram.org/apps",
       "required": true
     },
-    "BOT_TOKEN=Config.BOT_TOKEN": "6552338134:AAEsmnqmFNROXtdThB25dV4JBV6942-Q90A"
+    "BOT_TOKEN": {6552338134:AAEsmnqmFNROXtdThB25dV4JBV6942-Q90A"
       "description": "Enter your Bot token, get it from @BotFather",
       "required": true
-    
+    }
+  },
+
   "buildpacks": [
     {
       "url": "heroku/python"
     }
   ]
+}
